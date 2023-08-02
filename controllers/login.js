@@ -46,7 +46,7 @@ exports.deleteOder=async (req, res, next) => {
 }
 exports.editOder= async (req, res, next) => {
   try {
-    const userId = req.params.userId; 
+    const userId = req.params.id; 
     const updatedAmount = req.body.Amount;
     const updatedDescription = req.body.Description;
     const updatedCategory = req.body.Category;
